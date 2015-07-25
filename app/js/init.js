@@ -1,16 +1,7 @@
 'use strict';
 
 var React = require('react');
-
-var Player = React.createClass({
-  render: function() {
-    return (
-      <div className="player">
-        Hello, world!
-      </div>
-    );
-  }
-});
+var Player = require('./player');
 
 React.render(
   <Player />,
