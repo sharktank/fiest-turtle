@@ -1,0 +1,29 @@
+{
+  "name": "ft-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Fiesta Turtle",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sharktank/ft-frontend.git"
+  },
+  "author": "Andrew Kennedy <andrew@akenn.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharktank/ft-frontend/issues"
+  },
+  "homepage": "https://github.com/sharktank/ft-frontend",
+  "devDependencies": {
+    "browserify": "^11.0.0",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
