@@ -2,9 +2,12 @@
 
 var React = require('react');
 var SpaceJam = require('../../plugins/space-jam-music-source/src/index');
+var SoundCloud = require('../../plugins/soundcloud/src/index');
 var sc;
 
-SpaceJam.MusicSource.playSong('spacejam:windfall').then(function(SongController) {
+window.SoundCloud = SoundCloud
+
+SoundCloud.MusicSource.playSong('soundcloud:https://soundcloud.com/southeastern-records/24-frames').then(function(SongController) {
   sc = SongController;
 });
 
@@ -24,4 +27,3 @@ module.exports = React.createClass({
     );
   }
 });
-
