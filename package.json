@@ -24,6 +24,8 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "react": "^0.13.3"
+    "firebase": "^2.2.7",
+    "react": "^0.13.3",
+    "simple-stream": "git://github.com/MarcoPolo/simple-stream.git"
   }
 }
